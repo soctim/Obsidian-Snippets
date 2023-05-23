@@ -1,0 +1,10 @@
+.clear-hr  hr  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* shit */
+.clear-hr  img {
+    padding-bottom: 5px;
+}

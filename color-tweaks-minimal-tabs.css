@@ -1,0 +1,87 @@
+.theme-light {
+  --color-base-05: #fafbfd;
+  --color-base-10: #f8f9fb;
+  --color-base-20: #f2f4f9;
+  --color-base-25: #dce0e8;
+  --color-base-30: #d8dce7;
+  --color-base-35: #cbd0dc;
+  --color-base-40: #afb7ca;
+  --color-base-50: #9aa4bb;
+  --color-base-60: #596786;
+  --color-base-70: #48526c;
+  --color-base-100: #1b1f28;
+  --list-marker-color: var(--color-base-60);
+  --indentation-guide-color: var(--color-base-35);
+  --indentation-guide-color-active: var(--color-base-60);
+}
+
+.theme-dark {
+  --color-base-000: #09090b;
+  --color-base-00: #1b1c20;
+  --color-base-10: #202227;
+  --color-base-20: #222429;
+  --color-base-25: #25282e;
+  --color-base-30: #30333b;
+  --color-base-35: #383c45;
+  --color-base-40: #445;
+  --color-base-50: #567;
+  --color-base-60: #89a;
+  --color-base-70: #b3b7c0;
+  --color-base-100: #d4d7dc;
+  --background-modifier-border: var(--color-base-35);
+  --tab-background-active: var(--color-base-00);
+  --list-marker-color: var(--color-base-60);
+  --indentation-guide-color: var(--color-base-35);
+  --indentation-guide-color-active: var(--color-base-60);
+  --divider-color: var(--color-base-000);
+}
+
+body {
+  --h1-size: 1.5em;
+  --h2-size: 1.2em;
+  --h3-size: 1.1em;
+  --h4-size: 1em;
+  --h5-size: 1em;
+  --h6-size: 1em;
+}
+
+.nav-buttons-container {
+  justify-content: flex-start;
+  padding-left: 4px;
+}
+
+.workspace-tab-header::before,
+.workspace-tab-header::after {
+  display: none;
+}
+
+.workspace-split.mod-root
+  > .workspace-tabs.mod-top
+  > .workspace-tab-header-container
+  > .workspace-tab-header-container-inner {
+  margin: 0 0;
+  padding-left: 0 !important;
+}
+
+.workspace-tab-header.mod-active {
+  border-radius: 0px;
+  box-shadow: none !important;
+}
+
+.theme-light .workspace-tab-header.mod-active {
+  background-color: var(--color-base-20);
+}
+
+.theme-dark .workspace-tab-header.mod-active {
+  background-color: var(--color-base-35);
+}
+
+.workspace-tab-header-inner:hover {
+  border-radius: 0px;
+  margin: 0;
+}
+
+.workspace .mod-root .workspace-tab-header {
+  padding-top: 0;
+  padding-bottom: 0;
+}

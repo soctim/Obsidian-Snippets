@@ -1,0 +1,27 @@
+
+/* #right,
+.markdown-preview-section .right {
+  display: block;
+  text-align: right !important;
+  background-color: var(--outer-bar);
+  padding-right: 0.8em;
+} */
+
+img[alt="right"] {
+  display: block;
+  text-align: right !important;
+  background-color: var(--outer-bar);
+  padding-right: 0.8em;
+}
+
+img[alt="half-size"] {
+  width: 50%;
+}
+
+#left,
+.markdown-preview-section .left {
+  display: block;
+  text-align: left !important;
+  background-color: var(--outer-bar);
+  padding-left: 0.8em;
+}
