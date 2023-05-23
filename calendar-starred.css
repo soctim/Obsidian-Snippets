@@ -2,10 +2,12 @@
   /* background-color: rgb(var(--ctp-teal)); */
   /* background-color: rgb(240, 198, 198); */
   border: 1px solid var(--icon-color-focused);
-  background:linear-gradient(to bottom right, rgba(255,0,0,0) 80%,var(--icon-color-focused) 20%);
+  /* background:linear-gradient(to bottom right, rgba(255,0,0,0) 80%,var(--icon-color-focused) 20%);
   :hover {
     background-color: var(--interactive-hover);
-  }
+  } */
+
+  background-color: var(--background-modifier-active);
 
   /* TODO: emoji overlap */
   /* content: "✅";
