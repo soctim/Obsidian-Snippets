@@ -20,7 +20,7 @@
 }
 
 #calendar-container [data-tags~="filled"]:not(.active):hover {
-  background:linear-gradient(to bottom right, rgba(255,0,0,0) 80%,var(--icon-color-focused) 20%);
+  /* background:linear-gradient(to bottom right, rgba(255,0,0,0) 80%,var(--icon-color-focused) 20%); */
   background-color: rgb(var(--ctp-crust));
 }
 
